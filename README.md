@@ -15,13 +15,7 @@ CustomTKInter
 ctypes
 Para comunicação do programa com a controladora, é necessário o arquivo .dll contendo a biblioteca dinâmica para instruir o programa a executar as funções pré programadas na controladora.
 
-image
-
-Acima, pode-se observar como é feita a comunicação serial da controladora com o Sistema Operacional e com o motor.
-
 Após estabelecida a comunicação, executa-se o programa .py para controlar o motor.
-
-image
 
 Observa-se instruções para utilização da interface na imagem.
 
@@ -31,4 +25,3 @@ Após preenchimento correto dos parâmetros, o usuário deve selecionar pode opt
 
 Para Embarcar o programa, utilizou-se o PyInstaller (Pode-se ser obtido utilizado o comando 'pip install pyinstaller') e criou-se um executável do programa. Este executável funciona em OS Windows, porém o mesmo procedimento pode ser utilizado para gerar um executável para OS Linux ou Ubuntu. Assim, é possivel executar o programa sem a necessidade de um interpretador, no caso o python, e consequentemente, pode ser utilizado no sistema embarcado.
 
-image
